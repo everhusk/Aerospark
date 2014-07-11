@@ -505,43 +505,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="3.35875" y="-3.10625" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">ublox</text>
 <circle x="2.85" y="-3.95" radius="0.6" width="0" layer="21"/>
 </package>
-<package name="SARANTEL-SR1202">
-<description>SARANTEL-SL1202
-
-Data Sheet : 
-http://docs-europe.electrocomponents.com/webdocs/0dbd/0900766b80dbde80.pdf</description>
-<wire x1="1.27" y1="5.65" x2="1.27" y2="3.15" width="0.127" layer="21"/>
-<wire x1="1.27" y1="3.15" x2="1.27" y2="-3.15" width="0.127" layer="21"/>
-<wire x1="1.27" y1="-3.15" x2="1.27" y2="-5.65" width="0.127" layer="21"/>
-<wire x1="1.27" y1="5.65" x2="3.99" y2="5.65" width="0.127" layer="21"/>
-<wire x1="3.99" y1="5.65" x2="3.99" y2="-5.65" width="0.127" layer="21"/>
-<wire x1="3.99" y1="-5.65" x2="1.27" y2="-5.65" width="0.127" layer="21"/>
-<wire x1="1.27" y1="-5.65" x2="-2.2" y2="-5.65" width="0.127" layer="21"/>
-<wire x1="-2.2" y1="-5.65" x2="1.27" y2="-3.15" width="0.127" layer="21"/>
-<wire x1="-2.2" y1="5.65" x2="1.27" y2="5.65" width="0.127" layer="21"/>
-<wire x1="-2.2" y1="5.65" x2="1.27" y2="3.15" width="0.127" layer="21"/>
-<wire x1="1.27" y1="-5" x2="-5.27" y2="-5" width="0.127" layer="22"/>
-<wire x1="1.27" y1="5" x2="-5.27" y2="5" width="0.127" layer="22"/>
-<wire x1="-5.27" y1="5" x2="-5.27" y2="2" width="0.127" layer="22"/>
-<wire x1="-5.27" y1="-5" x2="-5.27" y2="-2" width="0.127" layer="22"/>
-<wire x1="-5.27" y1="2" x2="-5.27" y2="-2" width="0.127" layer="22" curve="180"/>
-<wire x1="3.99" y1="6.65" x2="3.99" y2="-6.65" width="0.127" layer="21"/>
-<wire x1="3.99" y1="6.65" x2="7.83" y2="6.65" width="0.127" layer="21"/>
-<wire x1="3.99" y1="-6.65" x2="7.83" y2="-6.65" width="0.127" layer="21"/>
-<wire x1="7.83" y1="6.65" x2="7.83" y2="5.65" width="0.127" layer="21"/>
-<wire x1="7.83" y1="5.65" x2="7.83" y2="-5.65" width="0.127" layer="21"/>
-<wire x1="7.83" y1="-5.65" x2="7.83" y2="-6.65" width="0.127" layer="21"/>
-<wire x1="7.83" y1="5.65" x2="9.33" y2="5.65" width="0.127" layer="21"/>
-<wire x1="7.83" y1="-5.65" x2="9.33" y2="-5.65" width="0.127" layer="21"/>
-<wire x1="9.33" y1="6.65" x2="9.33" y2="-6.65" width="0.127" layer="21"/>
-<wire x1="9.33" y1="6.65" x2="20.36" y2="6.1" width="0.127" layer="21"/>
-<wire x1="9.33" y1="-6.65" x2="20.36" y2="-6.1" width="0.127" layer="21"/>
-<wire x1="20.36" y1="6.1" x2="23.27" y2="3.19" width="0.127" layer="21" curve="-90"/>
-<wire x1="20.36" y1="-6.1" x2="23.27" y2="-3.19" width="0.127" layer="21" curve="90"/>
-<wire x1="23.27" y1="-3.19" x2="23.27" y2="3.19" width="0.127" layer="21"/>
-<smd name="FEED" x="0" y="0" dx="2.5" dy="0.8" layer="1"/>
-<smd name="GND1" x="0" y="1.4" dx="2.5" dy="1" layer="1"/>
-<smd name="GND2" x="0" y="-1.35" dx="2.5" dy="1" layer="1"/>
+<package name="JDGA-RIGID_COMBO_PAD">
+<description>Jim D. Gray &amp; Associates
+Rigid Combo Pad Layout
+JDGA PD001</description>
+<smd name="P$1" x="0" y="0" dx="0.8" dy="5" layer="1"/>
+<smd name="P$2" x="-3.425" y="0" dx="4.65" dy="5" layer="1"/>
+<smd name="P$3" x="3.425" y="0" dx="4.65" dy="5" layer="1"/>
+<smd name="P$4" x="-3.425" y="0" dx="4.65" dy="5" layer="16"/>
+<smd name="P$5" x="3.425" y="0" dx="4.65" dy="5" layer="16"/>
 </package>
 </packages>
 <symbols>
@@ -569,19 +541,15 @@ http://docs-europe.electrocomponents.com/webdocs/0dbd/0900766b80dbde80.pdf</desc
 <wire x1="17.78" y1="-27.94" x2="17.78" y2="17.78" width="0.254" layer="94"/>
 <wire x1="17.78" y1="17.78" x2="-17.78" y2="17.78" width="0.254" layer="94"/>
 </symbol>
-<symbol name="SARANTEL_SL1200">
-<wire x1="0" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
-<circle x="-2.54" y="2.54" radius="3.5921" width="0.254" layer="94"/>
-<circle x="-2.54" y="2.54" radius="7.62" width="0.254" layer="94"/>
-<pin name="FEED" x="15.24" y="2.54" length="middle" rot="R180"/>
-<pin name="GND" x="15.24" y="-2.54" length="middle" rot="R180"/>
-<pin name="GND2" x="15.24" y="7.62" length="middle" rot="R180"/>
-<wire x1="10.16" y1="-5.08" x2="10.16" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-2.54" x2="15.24" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="10.16" y1="10.16" x2="10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="7.62" x2="15.24" y2="7.62" width="0.254" layer="94"/>
+<symbol name="ANTENNA">
+<wire x1="2.54" y1="0" x2="17.78" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="3.5921" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="7.62" width="0.254" layer="94"/>
+<pin name="FEED" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="GND" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-5.08" x2="17.78" y2="-5.08" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -618,22 +586,15 @@ http://docs-europe.electrocomponents.com/webdocs/0dbd/0900766b80dbde80.pdf</desc
 </device>
 </devices>
 </deviceset>
-<deviceset name="SARANTEL-SR1202">
-<description>SARANTEL-SL1202
-
-Author Anthony Stirk / http://ava.upuaut.net
-
-Data Sheet : 
-http://docs-europe.electrocomponents.com/webdocs/0dbd/0900766b80dbde80.pdf</description>
+<deviceset name="JDGA-REMQV-ANTENNA">
 <gates>
-<gate name="G$1" symbol="SARANTEL_SL1200" x="-5.08" y="27.94"/>
+<gate name="G$1" symbol="ANTENNA" x="-17.78" y="0"/>
 </gates>
 <devices>
-<device name="" package="SARANTEL-SR1202">
+<device name="" package="JDGA-RIGID_COMBO_PAD">
 <connects>
-<connect gate="G$1" pin="FEED" pad="FEED"/>
-<connect gate="G$1" pin="GND" pad="GND1"/>
-<connect gate="G$1" pin="GND2" pad="GND2"/>
+<connect gate="G$1" pin="FEED" pad="P$1"/>
+<connect gate="G$1" pin="GND" pad="P$2 P$3 P$4 P$5"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6682,11 +6643,6 @@ type 0309, grid 2.5 mm</description>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="U$3" library="Ava" deviceset="SARANTEL-SR1202" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value="SL1204SB"/>
-<attribute name="OC_NEWARK" value="96T7520"/>
-</part>
 <part name="T1" library="transistor" deviceset="2N3904" device="" value="">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="2N3904TF"/>
@@ -6696,11 +6652,10 @@ type 0309, grid 2.5 mm</description>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="U$1" library="SparkFun-Electromechanical" deviceset="RELAY" device="PTH3">
+<part name="RELAY" library="SparkFun-Electromechanical" deviceset="RELAY" device="PTH3" value="">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
@@ -6716,7 +6671,7 @@ type 0309, grid 2.5 mm</description>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100 NF">
+<part name="C1" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100 NF">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
@@ -6756,6 +6711,7 @@ type 0309, grid 2.5 mm</description>
 <attribute name="MPN" value="CMD17-21VGD/TR8"/>
 <attribute name="OC_NEWARK" value="34C8662"/>
 </part>
+<part name="U$3" library="Ava" deviceset="JDGA-REMQV-ANTENNA" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6772,11 +6728,6 @@ type 0309, grid 2.5 mm</description>
 <attribute name="MF" x="101.6" y="25.4" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="101.6" y="25.4" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U$3" gate="G$1" x="48.26" y="33.02">
-<attribute name="OC_NEWARK" x="48.26" y="33.02" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="48.26" y="33.02" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="48.26" y="33.02" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="T1" gate="G1" x="55.88" y="60.96">
 <attribute name="OC_NEWARK" x="55.88" y="60.96" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="55.88" y="60.96" size="1.778" layer="96" display="off"/>
@@ -6786,11 +6737,10 @@ type 0309, grid 2.5 mm</description>
 <instance part="GND4" gate="1" x="129.54" y="-5.08"/>
 <instance part="GND1" gate="1" x="73.66" y="25.4"/>
 <instance part="GND2" gate="1" x="-12.7" y="-5.08"/>
-<instance part="GND5" gate="1" x="73.66" y="45.72" rot="R180"/>
 <instance part="GND6" gate="1" x="152.4" y="73.66"/>
 <instance part="GND7" gate="1" x="152.4" y="63.5"/>
 <instance part="GND8" gate="1" x="152.4" y="53.34"/>
-<instance part="U$1" gate="G$1" x="76.2" y="73.66">
+<instance part="RELAY" gate="G$1" x="76.2" y="73.66">
 <attribute name="OC_NEWARK" x="76.2" y="73.66" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="76.2" y="73.66" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="76.2" y="73.66" size="1.778" layer="96" display="off"/>
@@ -6806,7 +6756,7 @@ type 0309, grid 2.5 mm</description>
 <attribute name="MF" x="99.06" y="73.66" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="99.06" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C2" gate="G$1" x="139.7" y="35.56" rot="R180">
+<instance part="C1" gate="G$1" x="139.7" y="35.56" rot="R180">
 <attribute name="OC_NEWARK" x="139.7" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="139.7" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="139.7" y="35.56" size="1.778" layer="96" display="off"/>
@@ -6846,15 +6796,16 @@ type 0309, grid 2.5 mm</description>
 <attribute name="MF" x="45.72" y="60.96" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="45.72" y="60.96" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="U$3" gate="G$1" x="50.8" y="35.56"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="N$1" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="FEED"/>
 <pinref part="U$2" gate="G$1" pin="11_RF_IN"/>
-<wire x1="63.5" y1="35.56" x2="78.74" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="35.56" x2="78.74" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="FEED"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -6865,7 +6816,7 @@ type 0309, grid 2.5 mm</description>
 <wire x1="139.7" y1="25.4" x2="139.7" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <junction x="139.7" y="25.4"/>
-<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="C1" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="1_GND"/>
@@ -6875,22 +6826,12 @@ type 0309, grid 2.5 mm</description>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="12_GND"/>
-<pinref part="U$3" gate="G$1" pin="GND"/>
 <wire x1="78.74" y1="30.48" x2="73.66" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="30.48" x2="63.5" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="30.48" x2="68.58" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="30.48" x2="73.66" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <junction x="73.66" y="30.48"/>
-</segment>
-<segment>
-<pinref part="U$3" gate="G$1" pin="GND2"/>
-<pinref part="U$2" gate="G$1" pin="10_GND"/>
-<wire x1="78.74" y1="40.64" x2="73.66" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="40.64" x2="63.5" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="40.64" x2="73.66" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="GND5" gate="1" pin="GND"/>
-<junction x="73.66" y="43.18"/>
-<junction x="73.66" y="40.64"/>
+<pinref part="U$3" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="JP1" pin="GND@6"/>
@@ -6944,6 +6885,9 @@ type 0309, grid 2.5 mm</description>
 <pinref part="JP1" gate="JP1" pin="RXI"/>
 <wire x1="22.86" y1="38.1" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
 <label x="25.4" y="38.1" size="1.27" layer="95" xref="yes"/>
+<wire x1="22.86" y1="38.1" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="38.1" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
+<label x="25.4" y="38.1" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="2_TXD1"/>
@@ -6972,7 +6916,7 @@ type 0309, grid 2.5 mm</description>
 <segment>
 <pinref part="D4" gate="G$1" pin="C"/>
 <wire x1="60.96" y1="76.2" x2="60.96" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="COIL1"/>
+<pinref part="RELAY" gate="G$1" pin="COIL1"/>
 <wire x1="60.96" y1="78.74" x2="66.04" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="78.74" x2="60.96" y2="81.28" width="0.1524" layer="91"/>
 <label x="60.96" y="81.28" size="1.27" layer="95" rot="R90" xref="yes"/>
@@ -6981,38 +6925,38 @@ type 0309, grid 2.5 mm</description>
 </net>
 <net name="PWR" class="0">
 <segment>
-<pinref part="JP1" gate="JP1" pin="GP4"/>
-<wire x1="22.86" y1="17.78" x2="25.4" y2="17.78" width="0.1524" layer="91"/>
-<label x="25.4" y="17.78" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <wire x1="124.46" y1="78.74" x2="121.92" y2="78.74" width="0.1524" layer="91"/>
 <label x="121.92" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="PWR" gate="G$1" pin="A"/>
 </segment>
+<segment>
+<pinref part="JP1" gate="JP1" pin="SCLK"/>
+<wire x1="22.86" y1="33.02" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
+<label x="25.4" y="33.02" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="LOG" class="0">
-<segment>
-<pinref part="JP1" gate="JP1" pin="GP17"/>
-<wire x1="22.86" y1="15.24" x2="25.4" y2="15.24" width="0.1524" layer="91"/>
-<label x="25.4" y="15.24" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <wire x1="124.46" y1="68.58" x2="121.92" y2="68.58" width="0.1524" layer="91"/>
 <label x="121.92" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="LOG" gate="G$1" pin="A"/>
 </segment>
+<segment>
+<pinref part="JP1" gate="JP1" pin="MISO"/>
+<wire x1="22.86" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
+<label x="25.4" y="30.48" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="SBD" class="0">
-<segment>
-<pinref part="JP1" gate="JP1" pin="GP22"/>
-<wire x1="22.86" y1="10.16" x2="25.4" y2="10.16" width="0.1524" layer="91"/>
-<label x="25.4" y="10.16" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <wire x1="124.46" y1="58.42" x2="121.92" y2="58.42" width="0.1524" layer="91"/>
 <label x="121.92" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="SBD" gate="G$1" pin="A"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="JP1" pin="MOSI"/>
+<wire x1="22.86" y1="27.94" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
+<label x="25.4" y="27.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="IGNT" class="0">
@@ -7045,11 +6989,12 @@ type 0309, grid 2.5 mm</description>
 <segment>
 <pinref part="T1" gate="G1" pin="C"/>
 <wire x1="58.42" y1="66.04" x2="58.42" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="COIL2"/>
+<pinref part="RELAY" gate="G$1" pin="COIL2"/>
 <wire x1="58.42" y1="68.58" x2="60.96" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="68.58" x2="66.04" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="68.58" x2="60.96" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="D4" gate="G$1" pin="A"/>
+<junction x="60.96" y="68.58"/>
 </segment>
 </net>
 <net name="3V3" class="0">
@@ -7074,12 +7019,12 @@ type 0309, grid 2.5 mm</description>
 <junction x="139.7" y="40.64"/>
 <wire x1="139.7" y1="40.64" x2="147.32" y2="40.64" width="0.1524" layer="91"/>
 <label x="147.32" y="40.64" size="1.27" layer="95" xref="yes"/>
-<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="C1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="NC"/>
+<pinref part="RELAY" gate="G$1" pin="NC"/>
 <wire x1="83.82" y1="78.74" x2="86.36" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="78.74" x2="86.36" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="1"/>
@@ -7088,7 +7033,7 @@ type 0309, grid 2.5 mm</description>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="NO"/>
+<pinref part="RELAY" gate="G$1" pin="NO"/>
 <wire x1="83.82" y1="68.58" x2="86.36" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="68.58" x2="86.36" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="2"/>
