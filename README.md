@@ -1,4 +1,4 @@
-The Aerospark Project
+Rockoon Project
 ====================
 
 This project was developed as an open source experiment of the “rockoon” concept.  The basic idea is to launch a rocket from a high altitude balloon at, or near, it’s burst altitude.  The purpose of this experiment is to demonstrate alternative technology to reach space.
