@@ -6685,13 +6685,13 @@ type 0309, grid 2.5 mm</description>
 </part>
 <part name="U$3" library="Ava" deviceset="SARANTEL-SR1202" device="">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="SL1204SB"/>
+<attribute name="OC_NEWARK" value="96T7520"/>
 </part>
 <part name="T1" library="transistor" deviceset="2N3904" device="" value="">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="2N3904TF"/>
+<attribute name="OC_NEWARK" value="05R0381"/>
 </part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
@@ -6891,6 +6891,7 @@ type 0309, grid 2.5 mm</description>
 <wire x1="73.66" y1="40.64" x2="73.66" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <junction x="73.66" y="43.18"/>
+<junction x="73.66" y="40.64"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="JP1" pin="GND@6"/>
@@ -6976,6 +6977,7 @@ type 0309, grid 2.5 mm</description>
 <wire x1="60.96" y1="78.74" x2="66.04" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="78.74" x2="60.96" y2="81.28" width="0.1524" layer="91"/>
 <label x="60.96" y="81.28" size="1.27" layer="95" rot="R90" xref="yes"/>
+<junction x="60.96" y="78.74"/>
 </segment>
 </net>
 <net name="PWR" class="0">
