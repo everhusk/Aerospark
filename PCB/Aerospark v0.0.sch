@@ -6220,7 +6220,6 @@ info@gushh.net</description>
 <wire x1="5.08" y1="1.27" x2="3.81" y2="0" width="0.127" layer="21" curve="-90"/>
 <wire x1="3.81" y1="0" x2="2.54" y2="1.27" width="0.127" layer="21" curve="-90"/>
 <wire x1="2.54" y1="1.27" x2="1.27" y2="1.27" width="0.127" layer="21"/>
-<text x="4.445" y="-13.335" size="1.27" layer="21" rot="R90">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -6245,8 +6244,6 @@ info@gushh.net</description>
 <wire x1="5.08" y1="-20.32" x2="20.32" y2="-20.32" width="0.254" layer="94"/>
 <wire x1="20.32" y1="-20.32" x2="20.32" y2="2.54" width="0.254" layer="94"/>
 <wire x1="20.32" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<text x="5.08" y="-22.86" size="1.778" layer="94">&gt;NAME</text>
-<text x="5.08" y="-25.4" size="1.778" layer="94">R847PH</text>
 </symbol>
 </symbols>
 <devicesets>

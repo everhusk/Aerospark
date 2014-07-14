@@ -461,7 +461,6 @@
 <text x="51.4197625" y="24.739603125" size="1.778" layer="21">+</text>
 <text x="54.452521875" y="24.800559375" size="1.778" layer="21">-</text>
 <text x="58.2041" y="27.75711875" size="1.016" layer="21" rot="R90">Input</text>
-<text x="40.371021875" y="20.590040625" size="1.016" layer="21" rot="R90">ILQ2-X009</text>
 <text x="51.4030625" y="16.051078125" size="1.016" layer="21" rot="R90">ULQ2003AD</text>
 <text x="9.580878125" y="33.207959375" size="1.016" layer="21">PWR</text>
 <text x="9.84758125" y="29.352240625" size="1.016" layer="21">LOG</text>
@@ -492,8 +491,9 @@
 <text x="9.8552" y="37.3126" size="0.4064" layer="21">R2</text>
 <text x="30.3784" y="16.1036" size="0.4064" layer="21">R13</text>
 <text x="26.51251875" y="33.2257375" size="1.778" layer="21">+</text>
-<text x="24.2443" y="33.253678125" size="1.778" layer="21">-</text>
+<text x="24.392890625" y="33.38321875" size="1.778" layer="21">-</text>
 <hole x="38.81818125" y="29.542159375" drill="2.9"/>
+<text x="40.24121875" y="18.5547" size="1.016" layer="21" rot="R90">K847PH</text>
 </plain>
 <libraries>
 <library name="SparkFun-Boards">
@@ -1885,7 +1885,6 @@ info@gushh.net</description>
 <wire x1="5.08" y1="1.27" x2="3.81" y2="0" width="0.127" layer="21" curve="-90"/>
 <wire x1="3.81" y1="0" x2="2.54" y2="1.27" width="0.127" layer="21" curve="-90"/>
 <wire x1="2.54" y1="1.27" x2="1.27" y2="1.27" width="0.127" layer="21"/>
-<text x="4.445" y="-13.335" size="1.27" layer="21" rot="R90">&gt;NAME</text>
 </package>
 </packages>
 </library>
@@ -2302,7 +2301,7 @@ design rules under a new name.</description>
 <via x="33.683" y="31.3785" extent="1-16" drill="0.6"/>
 <via x="33.99366875" y="29.00988125" extent="1-16" drill="0.6"/>
 <via x="22.2885" y="29.2735" extent="1-16" drill="0.6"/>
-<via x="25.0825" y="34.29" extent="1-16" drill="0.6"/>
+<wire x1="25.77591875" y1="33.7413625" x2="25.77591875" y2="33.7413625" width="0" layer="19" extent="1-16"/>
 <via x="29.7815" y="21.082" extent="1-16" drill="0.6"/>
 <via x="27.388" y="28.96" extent="1-16" drill="0.6"/>
 <via x="33.9731625" y="23.927859375" extent="1-16" drill="0.6"/>
@@ -2743,16 +2742,16 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="P$15"/>
 <contactref element="VOUT2" pad="2"/>
 <wire x1="33.5332" y1="38.6715" x2="33.5915" y2="38.6715" width="0.4064" layer="1"/>
-<wire x1="33.5915" y1="38.6715" x2="36.8782625" y2="35.99381875" width="0.4064" layer="1"/>
-<via x="36.8782625" y="35.99381875" extent="1-16" drill="0.6"/>
+<wire x1="33.5915" y1="38.6715" x2="36.8592125" y2="36.01286875" width="0.4064" layer="1"/>
+<via x="36.8592125" y="36.01286875" extent="1-16" drill="0.6"/>
 <via x="46.6725" y="16.891" extent="1-16" drill="0.6"/>
 <wire x1="46.6725" y1="16.891" x2="48.7045" y2="16.891" width="0.4064" layer="1"/>
 <wire x1="48.7045" y1="16.891" x2="48.768" y2="16.9545" width="0.4064" layer="1"/>
 <wire x1="36.989940625" y1="19.71525" x2="40.400303125" y2="16.3112375" width="0.4064" layer="16"/>
 <wire x1="40.400303125" y1="16.3112375" x2="46.0775" y2="16.296" width="0.4064" layer="16"/>
 <wire x1="46.0775" y1="16.296" x2="46.6725" y2="16.891" width="0.4064" layer="16"/>
-<wire x1="36.8782625" y1="35.99381875" x2="36.899853125" y2="19.7521625" width="0.3048" layer="16"/>
-<wire x1="36.899853125" y1="19.7521625" x2="36.989940625" y2="19.71525" width="0.3048" layer="16"/>
+<wire x1="36.8592125" y1="36.01286875" x2="36.842703125" y2="19.7902625" width="0.3048" layer="16"/>
+<wire x1="36.842703125" y1="19.7902625" x2="36.989940625" y2="19.71525" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$21">
 <contactref element="U$1" pad="P$14"/>
