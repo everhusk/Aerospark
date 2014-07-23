@@ -37,3 +37,8 @@ PCB
 ===
 
 The Aerospark Printed Circuit Board is also available.  Eagle files are included in this folder.
+
+Licence
+======
+
+[BSD Licence](http://opensource.org/licenses/bsd-license.php)
