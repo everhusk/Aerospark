@@ -41,4 +41,4 @@ The Aerospark Printed Circuit Board is also available.  Eagle files are included
 Licence
 ======
 
-[BSD Licence](http://opensource.org/licenses/bsd-license.php)
+[BSD Licence](http://opensource.org/licenses/MIT)
