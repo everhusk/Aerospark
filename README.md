@@ -7,8 +7,6 @@ A full overview of the technology and a detailed study of the concept is availab
 
 The payload contains a Raspberry Pi with the Aerospark shield, and a RockBLOCK unit which plugs directly into the Pi’s USB port.  Once powered, load the code to the Pi, edit the desired altitude, and make sure you have credits on your RockBLOCK.  Once the altitude is reached, the ignition relay will close the ignition circuit and fire the rocket.  Tracking is provided by the Iridium satellite network which is published by RockBLOCK through HTTP requests to the Aerospark website.
 
-If you have any questions, feel free to contact me at el.sanghera@gmail.com
-
 Iridium SBD
 ================
 
@@ -41,4 +39,4 @@ The Aerospark Printed Circuit Board is also available.  Eagle files are included
 Licence
 ======
 
-[BSD Licence](http://opensource.org/licenses/MIT)
+[MIT Licence](http://opensource.org/licenses/MIT)
