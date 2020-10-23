@@ -1,6 +1,8 @@
 Rockoon Project
 ====================
 
+[Click here to read the full paper](https://github.com/everhusk/Aerospark/blob/master/Design%20%26%20Analysis%20Of%20A%20Lunar%20Mission%20Launched%20From%20A%20HAB.pdf)
+
 This project was developed as an open source experiment of the “rockoon” concept.  The basic idea is to launch a rocket from a high altitude balloon at, or near, it’s burst altitude.  The purpose of this experiment is to demonstrate alternative technology to reach space.
 
 A full overview of the technology and a detailed study of the concept is available in the PDF document titled “Design and Analysis of a Lunar Mission Launched From a High Altitude Balloon”.
